@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ConsoleClient
 {
-    public class FileReader
+    public class FileReader : IFileReader
     {
         public IEnumerable<string> ReadAllLines(string path)
         {

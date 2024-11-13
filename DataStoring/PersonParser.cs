@@ -6,7 +6,7 @@ using ConsoleClient.DataClasses;
 
 namespace ConsoleClient
 {
-    public class PersonParser
+    public class PersonParser : IPersonParser
     {
         public Person ParseFromCsv(string dataLine)
         {

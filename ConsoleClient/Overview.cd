@@ -7,57 +7,13 @@
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ConsoleClient.PersonManager">
-    <Position X="5.75" Y="3" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAABAAAIAAAAAAAAAAAA=</HashCode>
-      <FileName>PersonManager.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Field Name="_repository" />
-    </ShowAsAssociation>
-  </Class>
-  <Class Name="ConsoleClient.Person">
-    <Position X="18.75" Y="1.25" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Person.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="ConsoleClient.PersonDisplayCommands">
     <Position X="5.5" Y="0.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAEAAAAAAAAACAAAAAAAAAAAAAAAAAEAAA=</HashCode>
       <FileName>PersonDisplayCommands.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Field Name="_personManager" />
-    </ShowAsAssociation>
-  </Class>
-  <Class Name="ConsoleClient.PersonRepository">
-    <Position X="5.75" Y="5.5" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAEAAAgAAAAAAAAAAAA=</HashCode>
-      <FileName>PersonRepository.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Field Name="_parser" />
-      <Field Name="_reader" />
-    </ShowAsAssociation>
-  </Class>
-  <Class Name="ConsoleClient.PersonParser">
-    <Position X="3" Y="5.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>PersonParser.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ConsoleClient.FileReader">
-    <Position X="8.75" Y="5.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
-      <FileName>FileReader.cs</FileName>
-    </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

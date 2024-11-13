@@ -1,10 +1,20 @@
-﻿namespace ConsoleClient
+﻿using Mappings;
+using Microsoft.Extensions.DependencyInjection;
+
+namespace ConsoleClient
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            var commands = new PersonDisplayCommands();
+            var serviceCollection = new ServiceCollection();
+            serviceCollection.AddTransient<IPersonDisplayCommands, PersonDisplayCommands>();
+
+            serviceCollection.AddApplicationMappings();
+
+            var serviceProvider = serviceCollection.BuildServiceProvider();
+
+            var commands = serviceProvider.GetRequiredService<IPersonDisplayCommands>();
 
             commands.DisplayAllAdults();
 
